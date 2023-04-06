@@ -3,3 +3,39 @@
     padding: 0;
 
 }
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #57a9f7;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  /* Style the title link inside the navigation bar */
+.title{
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+
+  /* Style the links inside the navigation bar */
+.topnav .sub-title {
+    float: right;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
