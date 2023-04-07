@@ -39,7 +39,12 @@
     color: black;
   }
 
- /* Style of the form into the input of contact */ 
+/* Style of the form into the input of contact and the complete page*/ 
+
+.sb {
+  margin: 10px;
+}
+
 div {
   padding-top: 10px;
   padding-bottom: 10px;
