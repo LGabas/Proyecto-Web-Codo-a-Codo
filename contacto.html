@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
     <title>Contactanos</title>
 </head>
 
-<body>
+<body class="sb">
 
     <h1>Contacto</h1>
 
@@ -20,20 +21,94 @@
     </nav>
 
 
+    <h2>Completá el siguente formulario para ponernos en contacto con ofertas de actividades y lugares para conocer:</h2>
     <form action="">
-        <div>
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre_ingresado" id="nombre">
-            <!-- name define la variable, una vez ingresado -->
+
+        <fieldset>
+
+            <legend>Datos personales</legend>
+
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Ingrese su nombre aquí..." required>
+            </div>
+
+            <div>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" placeholder="Ingrese su nombre aquí..." required>
+            </div>
+
+            <div>
+                <label for="fecha de nacimiento">Fecha de nacimiento:</label>
+                <input type="date" id="fecha de nacimiento" placeholder="Ingrese su fecha de nacimiento..." required>
+            </div>
+
+            <div>
+                <label for="numero de telefono">Numero de teléfono:</label>
+                <input type="tel" id="numero de telefono" placeholder="Ingrese su telefono aquí..." required>
+            </div>
+           
+            <div>
+                <label for="email">Ingrese su email:</label>
+                <input type="email" id="email" placeholder="Ingrese su mail aquí..." required>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Actividades</legend>
+
+            <div>
+                <label for="turno">Seleccione el turno que quiere hacer las actividades:</label>
+                <select name="turno">
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="costo">Seleccione el costo maximo de las actividades que quiere hacer:</label>
+                <select name="costo">
+                    <option>Bajo</option>
+                    <option>Medio</option>
+                    <option>Alto</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="horas extras">¿Tiene movilidad propia?</label>
+                <input type="radio" id="horas extras" name="horas extras"> Si
+                <input type="radio" id="horas extras" name="horas extras"> No
+            </div>
+
+            <div>
+                <label for="fecha_actividad">Día de la actividad a realizar:</label>
+                <input type="date" id="fecha_actividad" placeholder="Ingrese su fecha de nacimiento..." required>
+            </div>
+
+            <div>
+                <label for="act">Seleccione el lugar de las actividades que quiere realizar:</label>
+                <select name="act">
+                    <option>Gastronomía</option>
+                    <option>Playas</option>
+                </select>
+            </div>
+
+
+        </fieldset>
+
+        <div> 
+            <label for="opiniones">Decinos brevemente que te llevo a elegirnos a nosotros:</label> 
+            <textarea id="opiniones" cols="30" rows="10" placeholder="Decinos el motivo..."></textarea>
         </div>
-        <div>
-            <label for="apellido">Apellido:</label>
-            <input type="text" name="apellido_ingresado" id="apellido">
-        </div>
-        <div>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Borrar">
-        </div>
+       
+        <p class="f1">Recuerde que una vez que se envien los datos no podrán ser modificados</p>
+
+        <input type="submit">
+        <input type="reset" value="Borrar">
+
     </form>
 
 </body>
