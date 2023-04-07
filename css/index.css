@@ -38,4 +38,25 @@
     background-color: #ddd;
     color: black;
   }
+
+ /* Style of the form into the input of contact */ 
+div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+fieldset {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border: 1px solid black ;
+}
+
+.f1 {
+  font-size: larger;
+  padding: 15px;
+  font-size: 150%;
+  font-style: italic;
+  font-weight: bolder;
+}
   
