@@ -1,116 +1,63 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
-    <title>Contactanos</title>
+    <link rel="stylesheet" href="contacto.css">
+      
+    <title>Trabajo Grupal Codo a Codo</title>
 </head>
 
-<body class="sb">
+<body>
+    
+    <form id= 'datos' action="" method = "get" >
+        
+        <h1>Deje su Consulta</h1>
+        <h3>A la brevedad algunos de nuestros asesores responderá su consulta</h3>
+        <hr>
+        <p> <label>NOMBRE:</label>
+            <input id="nombre" type = "text"  name="nombre" required>
+            </p>
+            <p><label>APELLIDO:</label>   
+            <input id="apellido" type = "text" name="apellido" required>
+           </p> 
+            <p><label>EDAD:</label>
+            <input id="edad" type="number" min="18"  max="120" name="edad" required>
+            </p>   
+            <p><label>CORREO ELECTRONICO:</label>
+                <input id="email" type="email" name="email" required>
+            </p>
+            <p>Ingrese aqui su duda o consulta</p>
+            <textarea name="comentario" rows="10" cols="50" placeholder="Ingrese aqui su consulta..." required></textarea>
+        <br>
 
-    <h1>Contacto</h1>
+        <input type="button" onclick="validarFormulario()" value="Enviar Consulta">
+        
+    </form>   
+    <br>
+    <br>
+    <table ID="tablaDatos" style="visibility: hidden;">
+        <caption>
+            Tabla de DATOS del usuario
+       </caption>
+       <tehead>
+            <tr>
+                <th>NOMBRE</th>
+                <th>APELLIDO</th>
+                <th>EDAD</th> 
+                <th>CORREO ELECTRONICO</th>
+                <th>CONSULTA DEL USUARIO</th>
 
-    <nav>
-        <ul>
-            <li>Playas</li>
-            <li>¿Que hacer?</li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
+            </tr>
+        <tr>
+            <td></td>
+        </tr>
 
-
-    <h2>Completá el siguente formulario para ponernos en contacto con ofertas de actividades y lugares para conocer:</h2>
-    <form action="">
-
-        <fieldset>
-
-            <legend>Datos personales</legend>
-
-            <div>
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" placeholder="Ingrese su nombre aquí..." required>
-            </div>
-
-            <div>
-                <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" placeholder="Ingrese su nombre aquí..." required>
-            </div>
-
-            <div>
-                <label for="fecha de nacimiento">Fecha de nacimiento:</label>
-                <input type="date" id="fecha de nacimiento" placeholder="Ingrese su fecha de nacimiento..." required>
-            </div>
-
-            <div>
-                <label for="numero de telefono">Numero de teléfono:</label>
-                <input type="tel" id="numero de telefono" placeholder="Ingrese su telefono aquí..." required>
-            </div>
-           
-            <div>
-                <label for="email">Ingrese su email:</label>
-                <input type="email" id="email" placeholder="Ingrese su mail aquí..." required>
-            </div>
-
-        </fieldset>
-
-        <fieldset>
-
-            <legend>Actividades</legend>
-
-            <div>
-                <label for="turno">Seleccione el turno que quiere hacer las actividades:</label>
-                <select name="turno">
-                    <option>Mañana</option>
-                    <option>Tarde</option>
-                    <option>Noche</option>
-                </select>
-            </div>
-
-            <div>
-                <label for="costo">Seleccione el costo maximo de las actividades que quiere hacer:</label>
-                <select name="costo">
-                    <option>Bajo</option>
-                    <option>Medio</option>
-                    <option>Alto</option>
-                </select>
-            </div>
-
-            <div>
-                <label for="horas extras">¿Tiene movilidad propia?</label>
-                <input type="radio" id="horas extras" name="horas extras"> Si
-                <input type="radio" id="horas extras" name="horas extras"> No
-            </div>
-
-            <div>
-                <label for="fecha_actividad">Día de la actividad a realizar:</label>
-                <input type="date" id="fecha_actividad" placeholder="Ingrese su fecha de nacimiento..." required>
-            </div>
-
-            <div>
-                <label for="act">Seleccione el lugar de las actividades que quiere realizar:</label>
-                <select name="act">
-                    <option>Gastronomía</option>
-                    <option>Playas</option>
-                </select>
-            </div>
-
-
-        </fieldset>
-
-        <div> 
-            <label for="opiniones">Decinos brevemente que te llevo a elegirnos a nosotros:</label> 
-            <textarea id="opiniones" cols="30" rows="10" placeholder="Decinos el motivo..."></textarea>
-        </div>
-       
-        <p class="f1">Recuerde que una vez que se envien los datos no podrán ser modificados</p>
-
-        <input type="submit">
-        <input type="reset" value="Borrar">
-
-    </form>
-
+    </table>
+    
 </body>
+<footer><h4><a href="asesores.html">Acesores</a></h4></footer>
 
 </html>
