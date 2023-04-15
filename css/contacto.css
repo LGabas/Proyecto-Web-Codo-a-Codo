@@ -1,0 +1,73 @@
+/* Style of the body */
+body{
+    background-image:linear-gradient(to left, black, rgb(130, 128, 247));
+}
+
+/* Style oif the complete form */
+form{
+    width:600px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:white;
+}
+
+/* Style of the text and email label */
+form input[type="text"], form input[type="email"]{
+	width:180px;
+	padding:3px 100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+    
+}
+
+/* Style of the button to send the information */
+form input[type="button"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:3px solid #000;
+	border-radius:10px;
+	display:block;
+	color:#fff;
+	background-color:rgb(4, 0, 255);
+} 
+
+/* Style of the button to send the information when you are hover on it */
+form input[type="button"]:hover{
+	cursor:pointer;
+}
+
+/* Style of the other label */
+form label{
+	width:150px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+/* Style of the text */
+h1 {text-align: center;}
+h3{text-align: center;}
+
+/* Style of the table which is hidden */
+table{
+    width:600px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+th{
+    color:#fff;
+	background-color:black;   
+}
+
+caption{
+    color: white;
+}
+
+/* Style of the button on the footer */
+a[href = "Autores.html"] {color: white; font-weight: 900; padding: 10px; background-color: black}
