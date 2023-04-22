@@ -1,15 +1,10 @@
-/* Style of the body */
-body{
-    background-image:linear-gradient(to left, black, rgb(130, 128, 247));
-}
-
-/* Style oif the complete form */
+/* Style of the form */
 form{
-    width:600px;
+	width:600px;
 	padding:16px;
 	border-radius:10px;
 	margin:auto;
-	background-color:white;
+	background-color: lightgrey;
 }
 
 /* Style of the text and email label */
@@ -21,7 +16,6 @@ form input[type="text"], form input[type="email"]{
 	background-color:#f6f6f6;
 	margin:8px 0;
 	display:inline-block;
-    
 }
 
 /* Style of the button to send the information */
@@ -29,11 +23,11 @@ form input[type="button"]{
 	width:100%;
 	padding:8px 16px;
 	margin-top:32px;
-	border:3px solid #000;
+	border:3px solid #585858;
 	border-radius:10px;
 	display:block;
 	color:#fff;
-	background-color:rgb(4, 0, 255);
+	background-color:#57a9f7;
 } 
 
 /* Style of the button to send the information when you are hover on it */
