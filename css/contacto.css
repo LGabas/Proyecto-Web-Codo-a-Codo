@@ -7,6 +7,12 @@ form{
 	background-color: lightgrey;
 }
 
+/* Style of the input of age */
+#edad {
+	background-color: #f6f6f6;
+	border-color: #f6f6f6;
+}
+
 /* Style of the text and email label */
 form input[type="text"], form input[type="email"]{
 	width:180px;
