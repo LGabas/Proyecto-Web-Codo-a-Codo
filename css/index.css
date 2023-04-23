@@ -1,8 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-
-}
+    font-family: 'Prompt', sans-serif;
+  }
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -125,10 +125,24 @@ fieldset {
 
 /* Footer */
 .pie{
-  display: block;
+  display: flex;
   background-color: #57a9f7;
   padding: 20px;
   margin-top: 5px;
-  justify-content: center;
+  justify-content: space-between;
 }
 
+.pie-item{
+  color: white;
+}
+
+/* hover iconos Font Awesome redes sociales */
+.fa-brands:hover{
+  color: blue;
+}
+
+/* Google Fonts Montserrat */
+@font-face {
+  font-family: 'Prompt', sans-serif;
+  src: url("/css/fonts/Prompt-Regular.ttf");
+}
