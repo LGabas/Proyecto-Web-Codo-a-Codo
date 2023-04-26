@@ -5,59 +5,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
     <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/index.css">
       
-    <title>Trabajo Grupal Codo a Codo</title>
+    <title>Contacto</title>
 </head>
 
 <body>
+    <nav>
+        <div class="topnav">
+            <a href="index.html" class="title">MDQ Turismo</a>
+            <a href="contacto.html" class="sub-title">Contacto</a>
+            <a href="" class="sub-title">Gastronomia</a>
+            <a href="" class="sub-title">Playas</a>
+        </div>
+    </nav>
     
-    <form id= 'datos' action="" method = "get" >
+    <header class="encabezado">
+    
+        <div class="img-mardel">
+            <div class="txt-mardel">
+                <h2>Mar del Plata todo lo tiene...</h2>
+            </div>
+        </div>
+    
+    </header>
+    
+    <main>
+        <form id= 'datos' action="" method = "get" >
         
-        <h1>Deje su Consulta</h1>
-        <h3>A la brevedad algunos de nuestros asesores responderá su consulta</h3>
-        <hr>
-        <p> <label>NOMBRE:</label>
-            <input id="nombre" type = "text"  name="nombre" required>
-            </p>
-            <p><label>APELLIDO:</label>   
-            <input id="apellido" type = "text" name="apellido" required>
-           </p> 
-            <p><label>EDAD:</label>
-            <input id="edad" type="number" min="18"  max="120" name="edad" required>
-            </p>   
-            <p><label>CORREO ELECTRONICO:</label>
-                <input id="email" type="email" name="email" required>
-            </p>
-            <p>Ingrese aqui su duda o consulta</p>
-            <textarea name="comentario" rows="10" cols="50" placeholder="Ingrese aqui su consulta..." required></textarea>
-        <br>
-
-        <input type="button" onclick="validarFormulario()" value="Enviar Consulta">
-        
-    </form>   
-    <br>
-    <br>
-    <table ID="tablaDatos" style="visibility: hidden;">
-        <caption>
-            Tabla de DATOS del usuario
-       </caption>
-       <tehead>
-            <tr>
-                <th>NOMBRE</th>
-                <th>APELLIDO</th>
-                <th>EDAD</th> 
-                <th>CORREO ELECTRONICO</th>
-                <th>CONSULTA DEL USUARIO</th>
-
-            </tr>
-        <tr>
-            <td></td>
-        </tr>
-
-    </table>
+            <h1>Contacto</h1>
+            <hr>
+            <p> <label>NOMBRE:</label>
+                <input id="nombre" type = "text"  name="nombre" required>
+                </p>
+                <p><label>APELLIDO:</label>   
+                <input id="apellido" type = "text" name="apellido" required>
+               </p> 
+                <p><label>EDAD:</label>
+                <input id="edad" type="number" min="18"  max="120" name="edad" required>
+                </p>   
+                <p><label>CORREO ELECTRONICO:</label>
+                    <input id="email" type="email" name="email" required>
+                </p>
+                <p>Ingrese aqui su duda o consulta</p>
+                <textarea name="comentario" rows="10" cols="50" placeholder="Ingrese aqui su consulta..." required></textarea>
+            <br>
+    
+            <input type="button" onclick="validarFormulario()" value="Enviar Consulta">
+            
+        </form>   
+    </main>
+    
+    <footer>
+        <div class="pie">
+            <div class="pie-item"></div>
+            <div class="pie-item">Derechos reservados @2023</div>
+            <div class="pie-item">
+                <a href="https://www.instagram.com" target="_blank" style="color: white;"><i class="fa-brands fa-instagram fa-lg"></i></i></a>
+                <a href="https://www.facebook.com" target="_blank" style="color: white;"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                <a href="https://twitter.com" target="_blank" style="color: white;"><i class="fa-brands fa-twitter fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
     
 </body>
-<footer><h4><a href="asesores.html">Acesores</a></h4></footer>
-
 </html>
