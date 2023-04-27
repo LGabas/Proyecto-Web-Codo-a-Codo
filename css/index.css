@@ -141,6 +141,14 @@ fieldset {
   color: blue;
 }
 
+.footer{
+  /* SOLUCION PARA PONER EL FOOTER ABAJO */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
 /* Google Fonts Montserrat */
 @font-face {
   font-family: 'Prompt', sans-serif;
