@@ -71,7 +71,7 @@ fieldset {
 }
 
 .img-mardel {
-  background-image: url("/img/mardelplata/mardel08.jpg");
+  background-image: url("/resources/img/mardelplata/mardel08.jpg");
   height: 40vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -144,5 +144,5 @@ fieldset {
 /* Google Fonts Montserrat */
 @font-face {
   font-family: 'Prompt', sans-serif;
-  src: url("/css/fonts/Prompt-Regular.ttf");
+  src: url("/resources/fonts/Prompt-Regular.ttf");
 }
