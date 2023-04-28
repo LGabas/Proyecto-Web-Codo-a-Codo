@@ -84,14 +84,6 @@
   padding: 20px;
 }
 
-/* Segunda seccion index */
-.secc2{
-  display: flex;
-  justify-content: center;
-  padding: 5px;
-  margin-top: 5px; 
-}
-
 .card2{
   background-color:lightgrey;
   justify-content: center;
