@@ -68,13 +68,17 @@
 }
 
 /* Primera seccion index */
-.secc1{
+/* .secc1{
   display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: auto;
   justify-items: center;
   padding: 5px;
   margin-top: 5px;   
+} */
+
+.sec_1{
+  padding: 10px;
 }
 
 .card1{
