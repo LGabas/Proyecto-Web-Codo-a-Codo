@@ -15,7 +15,7 @@
 .title{
     float: left;
     display: block;
-    color: #ffffff;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -32,6 +32,12 @@
     text-decoration: none;
     font-size: 25px;
   }
+
+/* Estilo link activo en el menu */
+.topnav .activo{
+  text-decoration: underline;
+  color:antiquewhite;
+}
   
 /* Change the color of links on hover */
 .topnav a:hover {

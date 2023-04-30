@@ -2,94 +2,103 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/contacto.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/form.css">
-      
-    <title>Contacto</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/contacto.css">
+  <link rel="stylesheet" href="css/form.css">
+  <!-- Favicon -->
+  <link rel="icon" href="img/favicon.ico">
+  <script src="https://kit.fontawesome.com/5678e56054.js" crossorigin="anonymous"></script>
+  <title>MDQ Turismo</title>
+
+  <title>Contacto</title>
 </head>
 
 <body>
-    <nav>
-        <div class="topnav">
-            <a href="index.html" class="title">MDQ Turismo</a>
-            <a href="contacto.html" class="sub-title">Contacto</a>
-            <a href="servicios.html" class="sub-title">Servicios</a>
-            <a href="" class="sub-title">Playas</a>
-        </div>
-    </nav>
+  <nav>
+    <div class="topnav">
+      <a href="index.html" class="title">MDQ Turismo</a>
+      <a href="contacto.html" class="sub-title activo">Contacto</a>
+      <a href="servicios.html" class="sub-title">Servicios</a>
+      <a href="playas.html" class="sub-title">Playas</a>
+    </div>
+  </nav>
 
-    <header class="encabezado">
+  <header class="encabezado">
 
-        <div class="img-mardel">
-            <div class="txt-mardel">
-                <h2>Mar del Plata todo lo tiene...</h2>
-            </div>
-        </div>
+    <div class="img-mardel">
+      <div class="txt-mardel">
+        <h2>Mar del Plata todo lo tiene...</h2>
+      </div>
+    </div>
 
-    </header>
+  </header>
 
-    <main>
-        <div class="container">
-            <form action="/action_page.php">
-            <div class="row">
-              <div class="col-25">
-                <label for="nombre">Nombre</label>
-              </div>
-              <div class="col-75">
-                <input type="text" id="nombre" name="firstname" placeholder="Ingresar tu nombre..">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-25">
-                <label for="apellido">Apellido</label>
-              </div>
-              <div class="col-75">
-                <input type="text" id="apellido" name="lastname" placeholder="Ingresar tu apellido..">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-25">
-                <label for="ciudad">Ciudad</label>
-              </div>
-              <div class="col-75">
-                <select id="ciudad" name="ciudad">
-                  <option value="buenos aires">Buenos Aires</option>
-                  <option value="santa fe">Santa Fe</option>
-                  <option value="salta">Salta</option>
-                </select>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-25">
-                <label for="subject">Mensaje</label>
-              </div>
-              <div class="col-75">
-                <textarea id="subject" name="mensaje" placeholder="Escriba aqui su mensaje.." style="height:200px"></textarea>
-              </div>
-            </div>
-            <br>
-            <div class="row">
-              <input type="submit" value="Submit">
-            </div>
-            </form>
+  <main>
+    <div class="container">
+      <form action="/action_page.php">
+        <div class="row">
+          <div class="col-25">
+            <label for="nombre">Nombre</label>
           </div>
-    </main>
-        
-    <footer class="footer">
-        <div class="pie">
-                <div class="pie-item"></div>
-                <div class="pie-item">Derechos reservados &copy;2023</div>
-                <div class="pie-item">
-                    <a href="https://www.instagram.com" target="_blank" style="color: white;"><i class="fa-brands fa-instagram fa-lg"></i></i></a>
-                    <a href="https://www.facebook.com" target="_blank" style="color: white;"><i class="fa-brands fa-facebook fa-lg"></i></a>
-                    <a href="https://twitter.com" target="_blank" style="color: white;"><i class="fa-brands fa-twitter fa-lg"></i></a>
-                </div>
+          <div class="col-75">
+            <input type="text" id="nombre" name="firstname" placeholder="Ingresar tu nombre..">
+          </div>
         </div>
-    </footer>
+        <div class="row">
+          <div class="col-25">
+            <label for="apellido">Apellido</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="apellido" name="lastname" placeholder="Ingresar tu apellido..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="ciudad">Ciudad</label>
+          </div>
+          <div class="col-75">
+            <select id="ciudad" name="ciudad">
+              <option value="buenos aires">Buenos Aires</option>
+              <option value="santa fe">Santa Fe</option>
+              <option value="salta">Salta</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Mensaje</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="mensaje" placeholder="Escriba aqui su mensaje.."
+              style="height:200px"></textarea>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="pie">
+      <div class="pie-item"></div>
+      <div class="pie-item">Derechos reservados &copy;2023</div>
+      <div class="pie-item">
+        <a href="https://www.instagram.com" target="_blank" style="color: white;"><i
+            class="fa-brands fa-instagram fa-lg"></i></i></a>
+        <a href="https://www.facebook.com" target="_blank" style="color: white;"><i
+            class="fa-brands fa-facebook fa-lg"></i></a>
+        <a href="https://twitter.com" target="_blank" style="color: white;"><i
+            class="fa-brands fa-twitter fa-lg"></i></a>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
