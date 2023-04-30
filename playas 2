@@ -1,0 +1,133 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/contacto.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/form.css" />
+    <title>Playas</title>
+  </head>
+  <body>
+    <nav>
+      <div class="topnav">
+        <a href="index.html" class="title">MDQ Turismo</a>
+        <a href="contacto.html" class="sub-title">Contacto</a>
+        <a href="servicios.html" class="sub-title">Servicios</a>
+        <a href="playas.html" class="sub-title">Playas</a>
+      </div>
+    </nav>
+    <h1>Playas de Mar del Plata</h1>
+    <p>
+      Hay playas para todos los gustos, muchas ofrecen diferentes servicios como
+      alquiler de sombrillas, carpas, restaurantes, etc. Mar del Plata invita a
+      visitar las diferentes playas. Cada verano miles de personas disfrutan del
+      sol y el mar a lo largo de la costa.
+    </p>
+
+    <h2>Playas del Norte</h2>
+    <p>
+      En el norte se encuentran las playas de Camet. Estás playas están
+      recortadas por acantilados que suelen protegerla del viento. El acceso a
+      muchas de ellas se realiza por bajadas entre los acantilados. Hay algunos
+      paradores que ofrecen servicios de alquiler de sombrillas, comidas, etc.
+      Las playas de Camet también son frecuentadas por pescadores.
+    </p>
+
+    <h2>Playas del Centro</h2>
+    <p>
+      La Perla, Popular, Bristol, Varese Son las playas más concurridas de Mar
+      del Plata, por su ubicación central son de fácil acceso para aquellas
+      familias que no cuentan con vehículos propios. En los últimos años estas
+      playas fueron rellenadas con arena y se logró agrandar su extensión.
+    </p>
+
+    <h2></h2>
+    <p>
+      La Perla Se ubica frente al barrio La Perla y fue diseñado por Clorindo
+      Testa se encuentra ubicado frente a Plaza España. Los balnearios ofrecen
+      una amplia oferta gastronómica, alquiler de carpas y sombrillas, equipadas
+      con mesas y sillas. Desde La Perla se obtienen una linda vista de la
+      ciudad. Playa Popular, Punta Iglesia y Espigón de Pescadores. Playa
+      Popular, Punta Iglesia y Espigón de Pescadores La Playa Popular es una de
+      las más extensas de las playas del centro. Cuenta con un sector que ofrece
+      servicios a los bañistas. Miles de personas llegan cada día a la Playa
+      Popular para pasar el día. Desde el espigón del Club de Pescadores se
+      obtiene una linda vista de la ciudad.
+    </p>
+
+    <h2>Playa Bristol</h2>
+    <p>
+      La Brsitol y la Popular son las más concurridas durante el verano. La
+      Bristol es un símbolo del verano marplatense. Ubicada frente a la rambla,
+      el Hotel Provincial y el Casino. Junto al famoso monumento de los lobos
+      marinos, fotografiado miles de veces por los turistas. Cada día de verano
+      miles de familias llegan a la Bristol a disfrutar del mar y el sol. La
+      Bristol y los bañistas es un espectáculo en sí, cientos de personas se
+      enciman para obtener un metro de arena donde poder tomar sol. Visitar la
+      playa Bristol es una experiencia única en Mar del Plata.
+    </p>
+
+    <h2>Playa Varese</h2>
+    <p>
+      La Playa Varese está ubicada en el Cabo Corrientes, en la zona del
+      Torreón. Esta pequeña playa está protegida de las fuertes corrientes por
+      un largo espigón, por tal motivo sus aguas son tranquilas. La Playa Varese
+      es visitada por aquellas personas que gustan nadar y hacer deportes
+      náuticos (hay una baja para embarcaciones). Al atardecer el espigón recibe
+      la visita de muchos pescadores.
+    </p>
+
+    <h2>Playa Chica</h2>
+    <p>
+      Playa Chica se ubica al sur del Cabo Corrientes. Playa Chica está formada
+      por un pequeños sector se arena rodeado por rocas. Es una playa muy
+      pintoresca, con rocas grandes donde protegerse en días ventosos y tomar
+      sol.
+    </p>
+
+    <h2>Playa Grande</h2>
+    <p>
+      Playa Grande se ubica cerca del barrio residencial Los Troncos y del Club
+      de Golf. Es una playa de mar abierto con olas, esto la hace popular entre
+      los surfistas. En Playa Grande es frecuenta por familias y jóvenes. Cuenta
+      con diferentes paradores, restaurantes y servicios para los bañistas.
+      Además hay un amplio estacionamiento.
+    </p>
+
+    <h2>Punta Mogote</h2>
+    <p>
+      Punta Mogote La playa de Punta Mogote se encuentra al sur del Puerto y
+      tiene una extensión de más de 3 kilómetros. Es la playa más extensa de Mar
+      del Plata. Cuenta con 24 balnearios, todos comunicados por un paseo
+      peatonal. Tiene muchos servicios como restaurantes, gimnasio, piscinas,
+      alquiler de carpas y sombrillas, instalaciones deportivas, enfermería,
+      etc. Cuenta con un lago artificial y amplias playas de estacionamiento.
+      Punta Mogote recibe a muchas familias que buscan una playa amplia de fácil
+      acceso en auto y sin la aglomeración de las playas del centro.+ Hacer
+      click para ver más Punta Mogotes
+    </p>
+
+    <h2>Playas del Sur (al sur del Faro)</h2>
+    <p>
+      Estas playas se encuentras al sur del faro. Son playas de mar abierto
+      rodeadas de barrancas y acantilados y zonas arboladas. En las playas del
+      sur se encuentras los balnearios más sofisticados y los sitios de moda.
+      Los paradores ofrecen comidas y tragos. Los jóvenes son los que más buscan
+      a estas playas. Muchos balnearios se encuentras auspiciados por
+      importantes marcas y se realizan diferentes espectáculos como recitales,
+      campeonatos de fútbol, etc.
+    </p>
+     <footer class="footer">
+        <div class="pie">
+                <div class="pie-item"></div>
+                <div class="pie-item">Derechos reservados &copy;2023</div>
+                <div class="pie-item">
+                    <a href="https://www.instagram.com" target="_blank" style="color: white;"><i class="fa-brands fa-instagram fa-lg"></i></i></a>
+                    <a href="https://www.facebook.com" target="_blank" style="color: white;"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                    <a href="https://twitter.com" target="_blank" style="color: white;"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                </div>
+        </div>
+    </footer>
+  </body>
+</html>
