@@ -45,9 +45,7 @@
     color: black;
   }
 
-
 /* Header */
-
 .encabezado{
   display: block;
 }
@@ -70,7 +68,8 @@
   color: white;
   text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
   1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
-  font-size: xx-large;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 /* Primera seccion index */
