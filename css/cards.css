@@ -86,7 +86,9 @@ text-transform:uppercase;
 }
 
 .dorso button:hover {
-color:#5f127c;
-border-color:#5f127c;
-font-weight:bold;
+color: #fff;
+border-color: #fff;
+background-color: white;
+color: black;
+transition-duration: 600ms;
 }
