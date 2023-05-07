@@ -77,6 +77,27 @@
 	transition: .3s ease-in-out;
 }
 
+.image-content-5 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(/resources/img/playas/playa_laperla2.jpg);
+	background-size: cover;
+	transition: .3s ease-in-out;
+}
+
+.image-content-6 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(/resources/img/playas/playa_elfaro2.jpg);
+	background-size: cover;
+	transition: .3s ease-in-out;
+}
 .text {
 	position: absolute;
 	top: 0;
