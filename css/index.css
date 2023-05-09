@@ -161,3 +161,22 @@
   font-family: 'Prompt', sans-serif;
   src: url("/resources/fonts/Prompt-Regular.ttf");
 }
+
+/* Style of the button of the index and when hover on it*/
+.info-item.titulo{ 
+  color: white;
+}
+
+.info-item.titulo:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.fa-solid.fa-location-dot {
+  color: white;
+}
+
+.fa-solid.fa-location-dot:hover{
+  background-color: #ddd;
+  color: black;
+}
