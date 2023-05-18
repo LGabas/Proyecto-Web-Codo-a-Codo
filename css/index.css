@@ -107,15 +107,29 @@
   1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
 }
 
-.info-item.titulo{
+.info-item.subtitulo{
   background-color:#57a9f7;
 }
 
 .info-item.txt{
-  border-color: #57a9f7;
   font-size: x-large;
 }
 
+i {
+  color: white;
+}
+
+/* Style of the button of the index and when hover on it*/
+.info-item.subtitulo:hover{
+  background-color: #ddd;
+}
+
+i:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Estilos Cards*/
 .card1 {
   background-color: lightgrey;
   width: 30vw;
@@ -160,23 +174,4 @@
 @font-face {
   font-family: 'Prompt', sans-serif;
   src: url("/resources/fonts/Prompt-Regular.ttf");
-}
-
-/* Style of the button of the index and when hover on it*/
-.info-item.titulo{ 
-  color: white;
-}
-
-.info-item.titulo:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.fa-solid.fa-location-dot {
-  color: white;
-}
-
-.fa-solid.fa-location-dot:hover{
-  background-color: #ddd;
-  color: black;
 }

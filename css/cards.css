@@ -15,7 +15,6 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-
 .card {
 position: relative;
 display:inline-block;
@@ -39,13 +38,10 @@ color:#FFF;
 transform: rotateY(180deg);
 }
 
-
 /* GIRA VERTICAL 
 .flip-container:hover .card {
 transform: rotateX(180deg);
 } */
-
-
 
 .frente, .dorso {
 position: absolute;
@@ -73,7 +69,8 @@ text-align:center;
 }
 
 .dorso p {
-font-size:0.65em;
+font-size:0.60em;
+padding: 0.5em;
 }
 
 .dorso button { 

@@ -101,8 +101,8 @@
 .text {
 	position: absolute;
 	top: 0;
-	left: 150;
-	width: 60vmin;
+	left: 210;
+	width: 50vmin;
 	height: 100%;
 	padding: 3vmin 4vmin;
 	overflow-y: scroll;
