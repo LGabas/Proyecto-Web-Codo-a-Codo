@@ -175,3 +175,19 @@ i:hover {
   font-family: 'Prompt', sans-serif;
   src: url("/resources/fonts/Prompt-Regular.ttf");
 }
+
+@media only screen and (max-width: 745px) {
+  .topnav {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  
+  .footer{
+    width: 100vw;
+  }
+
+  .info-item.txt{
+    display: none;
+  }
+}
