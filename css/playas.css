@@ -111,7 +111,7 @@
 
 .wrap:hover .overlay
  {
-	transform: translateX(-60vmin);
+	transform: translateX(-90vmin);
 }
 .wrap:hover .image-content {
 	width: 30vmin;
