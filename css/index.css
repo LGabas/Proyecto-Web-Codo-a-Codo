@@ -79,7 +79,7 @@
 	grid-template-rows: auto;
   justify-items: center;
   padding: 5px;
-  margin-top: 5px;   
+  margin-top: 5px;
 } */
 
 .sec_1 {
@@ -177,18 +177,260 @@ i:hover {
   src: url("/resources/fonts/Prompt-Regular.ttf");
 }
 
-@media only screen and (max-width: 745px) {
+/* Responsive adapt */
+@media only screen and (max-width: 425px) {
+
   .topnav {
     display: flex;
     flex-direction: column;
     width: 100vw;
   }
-  
+
   .footer{
     width: 100vw;
   }
 
   .info-item.txt{
     display: none;
+  }
+
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  /* Playas pages */
+  .grid-cards {
+    width: 100vw;
+	  display: grid;
+	  grid-template-rows: repeat(6, auto);
+  }
+
+  #wap1 {
+    grid-column: 1/3;
+    margin-left: 100px;
+    margin-bottom: 0px;
+  }
+
+  #wap2 {
+    grid-column: 1/3;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  #wap3 {
+    grid-column: 1/3;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow: scroll;
+  }
+
+  #wap4 {
+    grid-column: 1/3;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  #wap5 {
+    grid-column: 1/3;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  #wap6 {
+    grid-column: 1/3;
+    margin-left: 100px;
+    margin-top: 0px;
+  }
+
+  /* Turismo page */
+  .sec_2 {
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+    grid-template-columns: repeat(1,auto);
+  }
+
+  #c1 {
+    grid-column: 1/2;
+    margin-left: 45px;
+  }
+
+  #c2 {
+    grid-column: 1/2;
+    margin-left: 45px;
+  }
+
+  #c3 {
+    grid-column: 1/2;
+    margin-left: 45px;
+  }
+
+  #c4 {
+    grid-column: 1/2;
+    margin-left: 45px;
+  }
+
+  #c5 {
+    grid-column: 1/2;
+    margin-left: 45px;
+  }
+
+  #c6 {
+    grid-column: 1/2;
+    margin-left: 45px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .footer{
+    width: 100vw;
+  }
+
+  .sec_1 {
+    width: 90vw;
+    margin-left: 30px;
+  }
+
+  /* Playas pages */
+  .grid-cards {
+    width: 100vw;
+	  display: grid;
+	  grid-template-rows: repeat(6, auto);
+  }
+
+  #wap1 {
+    grid-column: 1/3;
+    margin-left: 150px;
+    margin-bottom: 0px;
+  }
+
+  #wap2 {
+    grid-column: 1/3;
+    margin-left: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  #wap3 {
+    grid-column: 1/3;
+    margin-left: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow: scroll;
+  }
+
+  #wap4 {
+    grid-column: 1/3;
+    margin-left: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  #wap5 {
+    grid-column: 1/3;
+    margin-left: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  #wap6 {
+    grid-column: 1/3;
+    margin-left: 150px;
+    margin-top: 0px;
+  }
+
+  /* Turismo page */
+  .sec_2 {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(2,auto);
+  }
+
+  #c1 {
+    grid-column: 1/2;
+    margin-left: 30px;
+  }
+
+  #c2 {
+    grid-column: 2/3;
+    margin-left: 45px;
+  }
+
+  #c3 {
+    grid-column: 1/2;
+    margin-left: 30px;
+  }
+
+  #c4 {
+    grid-column: 2/3;
+    margin-left: 45px;
+  }
+
+  #c5 {
+    grid-column: 1/2;
+    margin-left: 30px;
+  }
+
+  #c6 {
+    grid-column: 2/3;
+    margin-left: 45px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+
+  /* Turismo page */
+  .sec_2 {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(3,auto);
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+
+  #c1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 30px;
+  }
+
+  #c2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-left: 30px;
+  }
+
+  #c3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin-left: 30px;
+  }
+
+  #c4 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: 30px;
+  }
+
+  #c5 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-left: 30px;
+  }
+
+  #c6 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin-left: 30px;
   }
 }
