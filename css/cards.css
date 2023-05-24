@@ -10,19 +10,20 @@
     margin:10px auto;
   }
 
-.grid-cards{
+.grid-cards-gd{
+    width: 100vw;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, auto);
 }
 
 .card {
-position: relative;
-display:inline-block;
-width: 100%;
-height: 100%;
-text-align: center;
-transform-style: preserve-3d;
-transition: transform 0.8s cubic-bezier(0.75, 0, 0.85, 1);
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: transform 0.8s cubic-bezier(0.75, 0, 0.85, 1);
 }
 
 .card h3, card p {
