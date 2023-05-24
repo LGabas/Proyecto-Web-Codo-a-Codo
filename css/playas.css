@@ -103,9 +103,7 @@
 	top: 0;
 	left: 210;
 	width: 50vmin;
-	height: 100%;
 	padding: 3vmin 4vmin;
-	overflow-y: scroll;
 	word-wrap: break-word;
 }
 
@@ -130,8 +128,9 @@
 }
 
 .grid-cards{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    width: 100vw;
+	display: grid;
+	grid-template-columns: repeat(2, auto);
 }
 
 /* Pop In */
@@ -196,6 +195,7 @@
 }
 .delay-4 {
   animation-delay: 1.2s;
+  text-align: start;
 }
 .delay-5 {
   animation-delay: 1.5s;
