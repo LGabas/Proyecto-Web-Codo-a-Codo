@@ -10,6 +10,8 @@
 	    <!-- Favicon -->
     <link rel="icon" href="img/favicon.ico">
     <script src="https://kit.fontawesome.com/5678e56054.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <title>Ubicacion Mardel</title>
     
   </head>
@@ -41,19 +43,31 @@
   
 
 	</main>
-	<footer class="footer">
+    <footer class="footer">
+
         <div class="pie">
-            <div class="pie-item"></div>
+            <div class="pie-item">
+                <!-- Api clima con VUE -->
+                <div id="app" style="text-align: center;">
+                    <h3>Clima en Mar del Plata</h3>
+                    <div v-if="loading">Loading...</div>
+                    <div v-else>
+                        <img :src="iconLink" alt="Icono clima">
+                        <div>{{ description}}</div>
+                        <p>Temperatura: {{ temperature }}°C</p>
+                    </div>
+                </div>
+            </div>
             <div class="pie-item">Derechos reservados &copy;2023</div>
             <div class="pie-item">
-                <a href="https://www.instagram.com" target="_blank"><i
-                        class="fa-brands fa-instagram fa-lg"></i></i></a>
-                <a href="https://www.facebook.com" target="_blank"><i
-                        class="fa-brands fa-facebook fa-lg"></i></a>
-                <a href="https://twitter.com" target="_blank"><i
-                        class="fa-brands fa-twitter fa-lg"></i></a>
+                <a href="https://www.instagram.com" target="_blank""><i
+                        class=" fa-brands fa-instagram fa-lg"></i></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter fa-lg"></i></a>
             </div>
         </div>
     </footer>
+
+    <script src="../js/clima.js"></script>
   </body>
 </html>
