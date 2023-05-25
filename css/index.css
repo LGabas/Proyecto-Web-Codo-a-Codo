@@ -385,6 +385,54 @@ i:hover {
 
 @media only screen and (min-width: 1440px) {
 
+  /* Playas page */
+  .grid-cards{
+    width: 100vw;
+	  display: grid;
+	  grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+  }
+
+  #wap1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 10px;
+  }
+
+  #wap2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-left: -40px;
+  }
+  
+  #wap3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: 10px;
+  }
+
+  #wap3::-webkit-scrollbar{
+    width: 0px;
+  }
+
+  #wap4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-left: -40px;
+  }
+
+  #wap5 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-left: 10px;
+  }
+
+  #wap6 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-left: -40px;
+  }
+
   /* Turismo page */
   .sec_2 {
     display: grid;
