@@ -38,7 +38,7 @@
 	right: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(/resources/img/playas/playa_grande1.JPG);
+	background-image: url(../resources/img/playas/playa_grande1.JPG);
 	background-size: cover;
 	transition: .3s ease-in-out;
 }
@@ -50,7 +50,7 @@
 	right: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(/resources/img/playas/playa_bristol1.jpg);
+	background-image: url(../resources/img/playas/playa_bristol1.jpg);
 	background-size: cover;
 	transition: .3s ease-in-out;
 }
@@ -61,7 +61,7 @@
 	right: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(/resources/img/playas/playa_puntamogotes3.jpg);
+	background-image: url(../resources/img/playas/playa_puntamogotes3.jpg);
 	background-size: cover;
 	transition: .3s ease-in-out;
 }
@@ -72,7 +72,7 @@
 	right: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(/resources/img/playas/playa_varese2.JPG);
+	background-image: url(../resources/img/playas/playa_varese2.JPG);
 	background-size: cover;
 	transition: .3s ease-in-out;
 }
@@ -83,7 +83,7 @@
 	right: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(/resources/img/playas/playa_laperla2.jpg);
+	background-image: url(../resources/img/playas/playa_laperla2.jpg);
 	background-size: cover;
 	transition: .3s ease-in-out;
 }
@@ -94,7 +94,7 @@
 	right: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(/resources/img/playas/playa_elfaro2.jpg);
+	background-image: url(../resources/img/playas/playa_elfaro2.jpg);
 	background-size: cover;
 	transition: .3s ease-in-out;
 }

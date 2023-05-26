@@ -94,36 +94,36 @@ transition-duration: 600ms;
 
 .imagen1 {
     display: flex;
-    background-image: url(/resources/img/mardelplata/images.jpg);
+    background-image: url(../resources/img/mardelplata/images.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .imagen2 {
     display: flex;
-    background-image: url(/resources/img/gastronomia/gastro_bodegon2.webp);
+    background-image: url(../resources/img/gastronomia/gastro_bodegon2.webp);
     background-size: cover; background-position: center;
 }
 .imagen3 {
     display: flex;
-    background-image: url(/resources/img/mardelplata/espectaculo.jpg);
+    background-image: url(../resources/img/mardelplata/espectaculo.jpg);
     background-size: cover; background-position: center;
 }
 .imagen4 {
     display: flex;
-    background-image: url(/resources/img/mardelplata/centro-mar-del-plata-1.jpg);
+    background-image: url(../resources/img/mardelplata/centro-mar-del-plata-1.jpg);
     background-size: cover; background-position: center;
 }
 .imagen5 {
     display: flex;
-    background-image: url(/resources/img/mardelplata/surf-10.jpg);
+    background-image: url(../resources/img/mardelplata/surf-10.jpg);
     background-size: cover; background-position: center;
    
 
 }
 .imagen6 {
     display: flex;
-    background-image: url(/resources/img/playas/playa_elfaro2.jpg);
+    background-image: url(../resources/img/playas/playa_elfaro2.jpg);
     background-size: cover; background-position: center;
 
 }   
