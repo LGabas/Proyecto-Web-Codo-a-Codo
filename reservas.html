@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas de Hotel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div id="app" class="container">
+        <h1>Reservas de alojamiento en Mar del Plata</h1>
+
+        <!-- Filtro por ID -->
+        <div class="mb-3">
+            <label for="idInput" class="form-label">Filtrar por ID:</label>
+            <input type="number" class="form-control" v-model="filtroId" placeholder="Ingrese el ID de la reserva o deje vacio para ver todos">
+        </div>
+
+        <!-- Tabla de reservas -->
+        <table class="table mt-4">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>DNI</th>
+                    <th>Teléfono</th>
+                    <th>Email</th>
+                    <th>Lugar de Alojamiento</th>
+                    <th>Foto del Lugar</th>
+                    <th>Fecha de Ingreso</th>
+                    <th>Fecha de Salida</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="reserva in reservasFiltradas" :key="reserva.id">
+                    <td>{{ reserva.id }}</td>
+                    <td>{{ reserva.nombre }}</td>
+                    <td>{{ reserva.apellido }}</td>
+                    <td>{{ reserva.dni }}</td>
+                    <td>{{ reserva.telefono }}</td>
+                    <td>{{ reserva.email }}</td>
+                    <td>{{ reserva.lugar_alojamiento }}</td>
+                    <td>{{ reserva.foto_lugar }}</td>
+                    <td>{{ reserva.fecha_ingreso }}</td>
+                    <td>{{ reserva.fecha_salida }}</td>
+                    <td>
+                        <button class="btn btn-primary" @click="editarReserva(reserva)">Editar</button>
+                        <button class="btn btn-danger" @click="eliminarReserva(reserva.id)">Eliminar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Formulario para crear/editar reserva -->
+        <form @submit.prevent="guardarReserva">
+            <h3>{{ formTitle }}</h3>
+            <div class="mb-3">
+                <label for="nombreInput" class="form-label">Nombre:</label>
+                <input type="text" class="form-control" v-model="reserva.nombre" placeholder="Ingrese el nombre">
+            </div>
+            <div class="mb-3">
+                <label for="apellidoInput" class="form-label">Apellido:</label>
+                <input type="text" class="form-control" v-model="reserva.apellido" placeholder="Ingrese el apellido">
+            </div>
+            <div class="mb-3">
+                <label for="dniInput" class="form-label">DNI:</label>
+                <input type="text" class="form-control" v-model="reserva.dni" placeholder="Ingrese el DNI">
+            </div>
+            <div class="mb-3">
+                <label for="telefonoInput" class="form-label">Teléfono:</label>
+                <input type="text" class="form-control" v-model="reserva.telefono" placeholder="Ingrese el teléfono">
+            </div>
+            <div class="mb-3">
+                <label for="emailInput" class="form-label">Email:</label>
+                <input type="email" class="form-control" v-model="reserva.email" placeholder="Ingrese el email">
+            </div>
+            <div class="mb-3">
+                <label for="lugarInput" class="form-label">Lugar de Alojamiento:</label>
+                <input type="text" class="form-control" v-model="reserva.lugar_alojamiento" placeholder="Ingrese el lugar de alojamiento">
+            </div>
+            <div class="mb-3">
+                <label for="fotoInput" class="form-label">Foto del Lugar:</label>
+                <input type="text" class="form-control" v-model="reserva.foto_lugar" placeholder="Ingrese la URL de la foto">
+            </div>
+            <div class="mb-3">
+                <label for="fechaIngresoInput" class="form-label">Fecha de Ingreso:</label>
+                <input type="date" class="form-control" v-model="reserva.fecha_ingreso">
+            </div>
+            <div class="mb-3">
+                <label for="fechaSalidaInput" class="form-label">Fecha de Salida:</label>
+                <input type="date" class="form-control" v-model="reserva.fecha_salida">
+            </div>
+            <button type="submit" class="btn btn-primary">{{ buttonLabel }}</button>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="/js/reservas.js"></script>
+</body>
+</html>
