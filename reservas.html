@@ -70,7 +70,9 @@
                     <td>{{ reserva.telefono }}</td>
                     <td>{{ reserva.email }}</td>
                     <td>{{ reserva.lugar_alojamiento }}</td>
-                    <td>{{ reserva.foto_lugar }}</td>
+                    <td><a :href="reserva.foto_lugar" target="_blank">
+                        <img :src="reserva.foto_lugar" alt="Foto del Lugar" style="width: 100px; height: 100px;"></a>
+                    </td>
                     <td>{{ reserva.fecha_ingreso }}</td>
                     <td>{{ reserva.fecha_salida }}</td>
                     <td>
