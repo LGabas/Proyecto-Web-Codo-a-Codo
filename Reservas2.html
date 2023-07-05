@@ -40,47 +40,47 @@
 <br><br>
 
 <div class="container">
-<form class="row mb-6">
+<form class="row mb-6" action="https://formspree.io/f/mnqkqajn" method="post" target="_blank" id="formulario">
 
 <div class="col-6 mb-3">
   <label for="exampleFormControlInput2" class="form-label">Nombre</label>
-  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su nombre" required>
+  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su nombre" required name="Nombre">
 </div>
 
 <div class="col-6 mb-3">
   <label for="exampleFormControlInput2" class="form-label">Apellido</label>
-  <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Ingrese su apellido" required>
+  <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Ingrese su apellido" required name="Apellido">
 </div>
 
 <div class="col-6 mb-3">
   <label for="exampleFormControlInput3" class="form-label">Email address</label>
-  <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="name@example.com" required>
+  <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="name@example.com" required name="email">
 </div>
 
 <div class="col-6 mb-3">
   <label for="exampleFormControlInput4" class="form-label">Teléfono</label>
-  <input type="number" class="form-control" id="exampleFormControlInput4" placeholder="Ingrese N° Tel" required>
+  <input type="number" class="form-control" id="exampleFormControlInput4" placeholder="Ingrese N° Tel" required name="telefono">
 </div>
 
 <div class="col-12 mb-3">
   <label for="exampleFormControlInput5" class="form-label">DNI</label>
-  <input type="number" class="form-control" id="exampleFormControlInput5" placeholder="Ingrese su DNI" required>
+  <input type="number" class="form-control" id="exampleFormControlInput5" placeholder="Ingrese su DNI" required name="DNI">
 </div>
 
 <div class="col-6 mb-3">
   <label for="exampleFormControlInput6" class="form-label">Fecha Desde</label>
-  <input type="date" class="form-control" id="exampleFormControlInput6" placeholder="Fecha Desde" required>
+  <input type="date" class="form-control" id="exampleFormControlInput6" placeholder="Fecha Desde" required name="Desde">
 </div>
 
 <div class="col-6 mb-3">
   <label for="exampleFormControlInput7" class="form-label">Fecha Hasta</label>
-  <input type="date" class="form-control" id="exampleFormControlInput7" placeholder="Fecha Hasta" required>
+  <input type="date" class="form-control" id="exampleFormControlInput7" placeholder="Fecha Hasta" required name="Hasta">
 </div>
 
 
 <div class="com-12 mb-3">
 <label for="exampleFormControlInput8" class="form-label">Seleccionar Alojamiento</label>
-<select class="form-select form-select-sm" aria-label=".form-select-sm example" required>
+<select class="form-select form-select-sm" aria-label=".form-select-sm example" required name="Hotel elegido">
   <option selected></option>
   <option value="1">Hotel A</option>
   <option value="2">Hotel B</option>
@@ -95,18 +95,19 @@
 </div>
 <div class="com-12 mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">Ingrese algún comentario</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="comentario"></textarea>
 </div>
 <br><br><br><br>
 
 <div>
 
-<button button type="submit" class="btn btn-primary" name="Enviar">
-  Reservar</button>
+<button type="submit" class="btn btn-primary" name="confirmar" onclick="confirmar()">Reservar</button>
+<button type="reset" class="btn btn-primary" name="Enviar">Limpiar</button>
+
+
+<!--<script> confirm("¿Confirma la reserva?"); alert(Gracias)</script>-->
 
 </div>
-
-
 
 <br><br><br><br>
 
