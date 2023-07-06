@@ -14,3 +14,14 @@
       })
     })()
     
+/*function validar() {
+      console.log("se envio el formulario")
+
+      formulatio.reset();
+
+      return false;
+    }
+
+function confirmar() {
+
+  window.alert("Reserva confirmada, Muchas Gracias")*/  
