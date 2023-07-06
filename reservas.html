@@ -89,39 +89,39 @@
             <h3>{{ formTitle }}</h3>
             <div class="mb-3">
                 <label for="nombreInput" class="form-label">Nombre:</label>
-                <input type="text" class="form-control" v-model="reserva.nombre" placeholder="Ingrese el nombre">
+                <input type="text" class="form-control" v-model="reserva.nombre" placeholder="Ingrese el nombre" required>
             </div>
             <div class="mb-3">
                 <label for="apellidoInput" class="form-label">Apellido:</label>
-                <input type="text" class="form-control" v-model="reserva.apellido" placeholder="Ingrese el apellido">
+                <input type="text" class="form-control" v-model="reserva.apellido" placeholder="Ingrese el apellido" required>
             </div>
             <div class="mb-3">
                 <label for="dniInput" class="form-label">DNI:</label>
-                <input type="text" class="form-control" v-model="reserva.dni" placeholder="Ingrese el DNI">
+                <input type="text" class="form-control" v-model="reserva.dni" placeholder="Ingrese el DNI" required>
             </div>
             <div class="mb-3">
                 <label for="telefonoInput" class="form-label">Teléfono:</label>
-                <input type="text" class="form-control" v-model="reserva.telefono" placeholder="Ingrese el teléfono">
+                <input type="text" class="form-control" v-model="reserva.telefono" placeholder="Ingrese el teléfono" required>
             </div>
             <div class="mb-3">
                 <label for="emailInput" class="form-label">Email:</label>
-                <input type="email" class="form-control" v-model="reserva.email" placeholder="Ingrese el email">
+                <input type="email" class="form-control" v-model="reserva.email" placeholder="Ingrese el email" required>
             </div>
             <div class="mb-3">
                 <label for="lugarInput" class="form-label">Lugar de Alojamiento:</label>
-                <input type="text" class="form-control" v-model="reserva.lugar_alojamiento" placeholder="Ingrese el lugar de alojamiento">
+                <input type="text" class="form-control" v-model="reserva.lugar_alojamiento" placeholder="Ingrese el lugar de alojamiento" required>
             </div>
             <div class="mb-3">
                 <label for="fotoInput" class="form-label">Foto del Lugar:</label>
-                <input type="text" class="form-control" v-model="reserva.foto_lugar" placeholder="Ingrese la URL de la foto">
+                <input type="text" class="form-control" v-model="reserva.foto_lugar" placeholder="Ingrese la URL de la foto" required>
             </div>
             <div class="mb-3">
                 <label for="fechaIngresoInput" class="form-label">Fecha de Ingreso:</label>
-                <input type="date" class="form-control" v-model="reserva.fecha_ingreso">
+                <input type="date" class="form-control" v-model="reserva.fecha_ingreso" required>
             </div>
             <div class="mb-3">
                 <label for="fechaSalidaInput" class="form-label">Fecha de Salida:</label>
-                <input type="date" class="form-control" v-model="reserva.fecha_salida">
+                <input type="date" class="form-control" v-model="reserva.fecha_salida" required>
             </div>
             <button type="submit" class="btn btn-primary">{{ buttonLabel }}</button>
         </form>
