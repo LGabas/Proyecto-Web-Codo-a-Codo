@@ -32,7 +32,7 @@ new Vue({
         guardarReserva() {
             if (this.reserva.id) {
                 // Editar reserva existente
-                axios.put(`https://turismomardel2023.pythonanywhere.com/reservas\${this.reserva.id}`, this.reserva)
+                axios.put(`https://turismomardel2023.pythonanywhere.com/reservas/${this.reserva.id}`, this.reserva)
                     .then(response => {
                         console.log(response.data);
                         this.limpiarFormulario();
