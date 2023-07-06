@@ -20,7 +20,7 @@ new Vue({
     },
     methods: {
         obtenerReservas() {
-            axios.get('http://localhost:5000/reservas')
+            axios.get('https://turismomardel2023.pythonanywhere.com/reservas')
                 .then(response => {
                     this.reservas = response.data;
                 })
@@ -32,7 +32,7 @@ new Vue({
         guardarReserva() {
             if (this.reserva.id) {
                 // Editar reserva existente
-                axios.put(`http://localhost:5000/reservas/${this.reserva.id}`, this.reserva)
+                axios.put(`https://turismomardel2023.pythonanywhere.com/reservas\${this.reserva.id}`, this.reserva)
                     .then(response => {
                         console.log(response.data);
                         this.limpiarFormulario();
@@ -45,7 +45,7 @@ new Vue({
                     });
             } else {
                 // Crear nueva reserva
-                axios.post('http://localhost:5000/reservas', this.reserva)
+                axios.post('https://turismomardel2023.pythonanywhere.com/reservas', this.reserva)
                     .then(response => {
                         console.log(response.data);
                         this.limpiarFormulario();
@@ -65,7 +65,7 @@ new Vue({
         },
         eliminarReserva(id) {
             if (confirm('¿Está seguro de eliminar esta reserva?')) {
-                axios.delete(`http://localhost:5000/reservas/${id}`)
+                axios.delete(`https://turismomardel2023.pythonanywhere.com/reservas/${id}`)
                     .then(response => {
                         console.log(response.data);
                         this.obtenerReservas();
